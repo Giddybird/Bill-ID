@@ -119,6 +119,22 @@ Thus any model produced would need more information to be of use to any interest
 
 However, as this is incomplete data, the possibility will always remain, that perhaps with a the full 20,000 proposals a complete model could be made to identify more fully the outcomes of every text permuatation a given bill may have, in addition to the realities of the bills sponsor, cosponsors (each one hot encoded) and other factors
 
-However, given the shear immensity of possible wording and the varity of topics, in addition to the nauances of politics it may well be beyond the models ability to determine.  All a bill needs to pass is support, that support is garnared in numerous ways beyond the bill wording itself.  The workings of political support are more complex than bill wording alone. 
+However, given the shear immensity of possible wording and the varity of topics, in addition to the nauances of politics it may well be beyond the models ability to ever determine without a level of information on representatives that every representative works very hard to avoid coming into being.
 
+
+
+├── images
+│   ├── BarCharts.png
+│   ├── Final_image.png
+│   ├── logo.png
+├── scratch_notebooks
+│   ├── Alisons_notebook.ipynb
+│   ├── GideonFinal_notebook.ipynb
+│   ├── Gideon_noetbook.ipynb
+│   ├── Kevins_notebook.ipynb
+│   ├── Kevins_noetbook_3class.ipynb
+├── .gitignore
+├── Final_notebook.ipynb
+├── Pneumonia_X-ray_Recognition_ppt-AP,GM,KA.pdf
+└── README.md
 
