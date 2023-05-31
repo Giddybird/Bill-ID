@@ -100,7 +100,7 @@ Putting all of this together we had a grid search doing 300 fits (100 varitions 
 
 # Results and Going Forward
 
-![Final Comparsion](images/Dummy_Confusion_Matrix.png)
+![Final Comparsion](images/TestingConfusionMatrix.png)
 
 It is clear that the final model preforms the best on its testing data.  Even when training data is reintroduced.  However as mentioned, this model is only preforming so well because it is including the original testing data.  The reality is, the tree was overfitting to the data it was given and when it was introduced to unseen data it could only predcit 1% petty than a dummy model.  Meaning the patterns detected in training the model did not apply universally to unseen data.
 
