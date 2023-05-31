@@ -100,6 +100,8 @@ Putting all of this together we had a grid search doing 300 fits (100 varitions 
 
 # Results and Going Forward
 
+![Final Comparsion](images/Dummy_Confusion_Matrix.png)
+
 It is clear that the final model preforms the best on its testing data.  Even when training data is reintroduced.  However as mentioned, this model is only preforming so well because it is including the original testing data.  The reality is, the tree was overfitting to the data it was given and when it was introduced to unseen data it could only predcit 1% petty than a dummy model.  Meaning the patterns detected in training the model did not apply universally to unseen data.
 
 In the end, after 300,000 iterations of decision tree models (300 random forests of 1000 trees each), The model was only _slightly_ better at predicting a given bill's outcome on unseen data than the dummy model.  Given that 84% of the bills die as being introduced, our model is only able to predict 85% of the cases of "unseen data".  There is clearly more room for growth.  As can be seen above, the model still is overfitting on training data.  While adjusting the depth of the model is an option that can be pursued, it is more likely that there is nuance this model is not yet picking up on.  For instance, the scale of the data being only 10% of the total bills, the realities of politics involving more than the bills text alone, and many other factors are present here that the model cannot pick up on.
