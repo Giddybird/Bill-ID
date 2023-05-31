@@ -67,9 +67,6 @@ This aspect will limit the model’s predictive ability on unseen data.  What a 
 
 # Methods
 
-# Methods
-
-
 Feature creation was a common element in this project.  The raw data offers numerous possibilities to explore as relationships, however none of them exisit in a preusable format.  Things like, the number of cosponors, the partisasin split of cosponsors, and the frequency of specific words and phrases in the text all have to be manually created from the data. 
 
 
@@ -124,17 +121,19 @@ However, given the shear immensity of possible wording and the varity of topics,
 
 
 ├── images
-│   ├── BarCharts.png
-│   ├── Final_image.png
-│   ├── logo.png
-├── scratch_notebooks
-│   ├── Alisons_notebook.ipynb
-│   ├── GideonFinal_notebook.ipynb
-│   ├── Gideon_noetbook.ipynb
-│   ├── Kevins_notebook.ipynb
-│   ├── Kevins_noetbook_3class.ipynb
+│   ├── Confusion Matrixs
+│   ├── Word Clouds
+│   ├── Images of Decision Trees
+├── Data
+│   ├── bills_116.csv
+│   ├── house_members_116.csv
+│   ├── house_legislation_116.csv
+│   ├── house_rollcall_info_116.csv
+│   ├── house_rollcall_votes_116.csv
+│   ├── Committee_Assignments_Cleaned.csv
+│   ├── Committee_Assignments.csv
 ├── .gitignore
-├── Final_notebook.ipynb
-├── Pneumonia_X-ray_Recognition_ppt-AP,GM,KA.pdf
+├── Bill_Analyzer.ipynb
+├── 116Congress.pdf
 └── README.md
 
